@@ -1,0 +1,35 @@
+body::before{
+  display:block;
+  content:'';
+  height: 60px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.bg-primary{
+  background-color: #6244c5 !important;
+}
+
+.navbar{
+  background-color: #fcec63 !important;
+}
+
+.footer{
+  background-color: #754df7 !important;
+}
+
+@font-face {
+  font-family: farsi;
+  src: url(BBardiya.ttf);
+}
+
+body{
+  font-family: farsi !important;
+}
+
+.more{
+  text-decoration: none !important;
+}
